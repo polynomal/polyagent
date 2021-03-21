@@ -1,0 +1,17 @@
+name: polyagent
+version: 0.1.0
+
+authors:
+  - jlholm <jlholmz@gmail.com>
+
+targets:
+  polyagent:
+    main: src/polyagent.cr
+
+crystal: 0.36.1
+
+license: MIT
+
+dependencies:
+  hardware:
+    github: crystal-community/hardware
